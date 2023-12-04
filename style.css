@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    min-width: 80vw;
+    margin: auto;
+    background-color: rgba(245, 222, 179, 0.3);
+}
+
+/* ------------------------header---------------------- */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.brand{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.brand i{
+    font-size: 2rem;
+    margin-right: 4px;
+    color: orchid;
+}
+
+.brand h1{
+    font-size: 1.5rem;
+}
+
+.brand h1 > span{
+    font-weight: 400;
+}
+
+.selection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 20vw;
+    margin: auto;
+}
+
+.selection h2{
+    font-size: 1rem;
+}
+
+.login{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    min-width: 15vw;
+}
+
+.login *{
+    font-size: 1rem;
+}
+
+.login p{
+    font-size: 1.5rem;
+    color: rgba(128, 128, 128, 0.2);
+    font-weight: 100;
+}
+
+.noti{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 15px;
+}
+
+.noti2{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    color: whitesmoke;
+    font-size: 10px;
+    text-align: center;
+    background-color: red;
+    top: -5px;
+    right: -5px;
+}
+
+.bar{
+    border-right: 2px solid rgba(192, 192, 192, 0.423);
+}
+
+h2{
+    margin: 4px 10px;
+    font-size: 1rem;
+}
+
+.hr{
+    border-bottom: 2px solid rgba(192, 192, 192, 0.423);
+}
+
+/* ------------------------topic---------------------- */
+
+.topic{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 80vw;
+    min-height: 15vh;
+    margin: auto;
+}
+
+/* ------------------------main left---------------------- */
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    min-height: 65vh;
+    max-width: 80vw;
+    margin: auto;
+}
+
+.google{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    min-width: 50%;
+    min-height: 400px;
+    padding: 0px 20px;
+}
+
+.docs,.slides{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    margin-bottom: 24px;
+    min-width: 36vw;
+}
+
+.circle1{
+    border: 2px solid orchid;
+    border-radius: 50%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle1 i{
+    font-size: 16px;
+    color: orchid;
+}
+
+.box1 ,.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 20px;
+    margin: 30px 4px;
+    padding: 30px;
+}
+
+.fa1 , .fa2{
+    background-color: whitesmoke;
+    padding: 8px 12px;
+    border-radius: 10px;
+    margin-bottom: 12px;
+}
+
+.box1 h3 ,.box2 h3{
+    margin-bottom: 12px;
+}
+
+.box1{
+    background-color: blue;
+}
+
+.box2{
+    background-color: orange;
+}
+
+.fa1{
+    color: blue;
+}
+
+.fa2{
+    color: orange;
+}
+
+.box1 h3 , .box2 h3{
+    color: whitesmoke;
+}
+
+.box1 p , .box2 p{
+    color: whitesmoke;
+}
+
+.price1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    min-height: 150px;
+}
+
+.price1 h2{
+    margin: 0px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: 4px;
+}
+
+.level, .level2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ball1 , .ball2 , .ball3 , .ball21 , .ball22,.ball23,.ball24{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-left: 4px;
+}
+
+.ball1 , .ball21 , .ball22,.ball23{
+    background-color: orchid;
+}
+
+.ball2 , .ball3,.ball24{
+    background-color: rgba(218, 112, 214, 0.25);
+}
+
+.selectlevel{
+    border-radius: 4px;
+    border: none;
+    color: rgba(128, 128, 128, 0.8);
+    font-weight: 700;
+    margin-left: 4px;
+}
+
+.lv{
+    color: rgba(128, 128, 128, 0.5);
+    font-weight: 700;
+}
+
+.selectlevel{
+    cursor: pointer;
+}
+
+.price1 h3{
+    color: grey;
+    margin-left: 4px;
+}
+
+/* ------------------------main right---------------------- */
+
+.rightbox{
+    display: flex;
+    min-width: 50%;
+    min-height: 50vh;
+    justify-content: flex-start;
+}
+
+.orderinfo{
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.orderinfo > h1{
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.subtotal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.subtotal h3{
+    color: rgba(0, 0, 255, 0.6);
+}
+
+.subtotal h2{
+    color: rgb(128, 128, 128);
+}
+
+.code{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1.2px solid rgba(128, 128, 128, 0.5);
+    padding-bottom: 30px;
+}
+
+.code i{
+    color: orchid;
+    font-size: 1.2rem;
+}
+
+.code input{
+    width: 50%;
+    height: 2.4rem;
+    border: 1px solid rgba(128, 128, 128, 0.2);
+    border-radius: 4px;
+    padding: 18px;
+    color: rgba(128, 128, 128, 0.2);
+    font-weight: 500;
+    background-color: rgba(245, 222, 179, 0);
+}
+
+.code button{
+    height: 2.4rem;
+    width: 25%;
+    color: orchid;
+    border: 2.2px solid orchid;
+    background-color: rgba(245, 222, 179, 0);
+    font-weight: 700;
+    border-radius: 14px;
+}
+
+.total{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total h3{
+    color: rgb(99, 98, 98);
+}
+
+.total h1{
+    color: orchid;
+}
+
+.orderinfo > button{
+    background-color: orchid;
+    padding: 12px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border: none;
+    border-radius: 14px;
+}
+
+/* ------------------------hover---------------------- */
+
+*{
+    cursor: context-menu;
+}
+
+.selection h2:hover{
+    cursor: pointer;
+    background-color: rgba(218, 112, 214, 0.5);
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
+    border-radius: 4px;
+}
+
+.login *:hover{
+    cursor: pointer;
+}
+
+.login h2:hover{
+    background-color: rgba(218, 112, 214, 0.5);
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
+    border-radius: 4px;
+}
+
+.login p:hover{
+    cursor: context-menu;
+}
+
+.circle1:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
+}
+
+.circle1 *:hover{
+    cursor: pointer;
+}
+
+.code input:hover{
+    cursor: auto;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.75);
+}
+
